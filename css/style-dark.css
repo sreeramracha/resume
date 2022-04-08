@@ -1,0 +1,145 @@
+/*
+#A6ABBD
+#E5F0FF
+light-lighter: #FAF7FF
+light-daarker: #e9e9e9
+dark-light: #252525
+dark-darker: #1d1d1d
+ */
+
+*{
+    background-color: #252525;
+    color: white;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;   
+}
+
+.whole{
+    padding:2% 7%;    
+}
+
+
+/* First section */
+div.title-section{
+    background-color: #1d1d1d;
+    margin: 5% 3%;
+    padding-left: 15%;
+    color:black;
+}
+
+td{
+    background-color:  #1d1d1d;
+}
+
+img{    
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 5%;
+    background-color:  #1d1d1d;
+}
+
+.profession{
+    margin-left: 5%;
+    background-color:  #1d1d1d;
+} 
+
+/* Second section */
+.row{
+    padding: 1% 2.5%;
+}
+
+.first-column{
+    margin: 2% auto;
+    padding: 3%;
+    background-color:  #1d1d1d;
+    color: black;
+}
+
+.second-column{
+    margin: 2% auto;
+    padding: 3%;    
+    background-color:  #1d1d1d;
+    color: black;
+}
+
+
+/* Last section */
+
+.fa-linkedin{
+    color: #0a66c2;
+    background-color:  #1d1d1d;
+}
+
+.fa-hackerrank{
+    color: #2ec866;
+    background-color:  #1d1d1d;
+}
+.fa-github{
+    color: white;
+    background-color:  #1d1d1d;
+}
+.fa-envelope{
+    background-color:  #1d1d1d;
+}
+.fa-phone{
+    background-color:  #1d1d1d;
+}
+
+
+/* Common */
+
+h5,p{
+    background-color:  #1d1d1d;
+}
+
+h3.headings{
+    background-color: #1F00FF;
+    /* background-color: #009CE9; */
+    color: white;
+    padding: 5px ;
+    border-radius: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    background-color: #1d1d1d;
+}
+
+span.contents{
+    /* background-color: #2C73D2; */
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 1px;
+}
+
+span.profiles{
+    margin: 5px;
+    background-color:  #1d1d1d;
+    font-size: 1.25rem;
+}
+
+a.contents{
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 2px;
+}
+a.contents:hover{
+    color: white;
+}
+
+
+/* Theme changer */
+.theme-changer{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+    color:black;
+}

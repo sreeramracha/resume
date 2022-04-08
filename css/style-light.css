@@ -1,0 +1,145 @@
+/*
+#A6ABBD
+#E5F0FF
+light-lighter: #FAF7FF
+light-daarker: #e9e9e9
+dark-light: #252525
+dark-darker: #1d1d1d
+ */
+
+
+*{
+    background-color:#e9e9e9;
+    color: black;
+    transition-timing-function:ease-in;
+    transition-duration: 0.5s;
+}
+
+.whole{
+    padding:2% 7%;    
+}
+
+/* First section */
+div.title-section{
+    background-color: #FAF7FF;
+    margin: 5% 3%;
+    padding-left: 15%;
+    color:black;
+}
+
+td{
+    background-color: #FAF7FF;
+}
+
+img{    
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 5%;
+    background-color: #FAF7FF;
+}
+
+.profession{
+    margin-left: 5%;
+    background-color: #FAF7FF;
+} 
+
+/* Second section */
+.row{
+    padding: 1% 2.5%;
+}
+
+.first-column{
+    margin: 2% auto;
+    padding: 3%;
+    background-color: #FAF7FF;
+    color: black;
+}
+
+.second-column{
+    margin: 2% auto;
+    padding: 3%;    
+    background-color: #FAF7FF;
+    color: black;
+}
+
+
+/* Last section */
+
+.fa-linkedin{
+    color: #0a66c2;
+    background-color: #FAF7FF;
+}
+
+.fa-hackerrank{
+    color: #2ec866;
+    background-color: #FAF7FF;
+}
+.fa-github{
+    color: black;
+    background-color: #FAF7FF;
+}
+.fa-envelope{
+    background-color: #FAF7FF;
+}
+.fa-phone{
+    background-color: #FAF7FF;
+}
+
+
+/* Common */
+
+h5,p{
+    background-color: #FAF7FF;
+}
+
+h3.headings{
+    background-color: #1F00FF;
+    /* background-color: #009CE9; */
+    color: white;
+    padding: 5px ;
+    border-radius: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    background-color: #FAF7FF;
+}
+
+span.contents{
+    /* background-color: #2C73D2; */
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 1px;
+}
+
+span.profiles{
+    margin: 5px;
+    background-color: #FAF7FF;
+    font-size: 1.25rem;
+}
+
+a.contents{
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 2px;
+}
+a.contents:hover{
+    color: white;
+}
+
+
+/* Theme changer */
+.theme-changer{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+    color:black;
+}
