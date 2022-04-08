@@ -88,6 +88,14 @@ img{
 }
 
 
+
+.fa-file-signature , .fa-puzzle-piece,.fa-newspaper{
+    background-color: #0067FF;
+    color: white;
+    padding: 3px;
+}
+
+
 /* Common */
 
 h5,p{
@@ -115,6 +123,7 @@ span.contents{
     padding: 5px ;
     border-radius: 40px;
     margin: auto 1px;
+    font-size: 1.25rem;
 }
 
 span.profiles{
@@ -129,6 +138,7 @@ a.contents{
     padding: 5px ;
     border-radius: 40px;
     margin: auto 2px;
+    font-size: 1.25rem;
 }
 a.contents:hover{
     color: white;
