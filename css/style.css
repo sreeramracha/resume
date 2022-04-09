@@ -1,0 +1,169 @@
+/*
+#A6ABBD
+#E5F0FF
+light-lighter: #FAF7FF
+light-darker: #e9e9e9
+dark-light: #252525
+dark-darker: #1d1d1d
+ */
+
+:root{
+    --front: #FAF7FF;
+    --back: #e9e9e9;
+    --text:black;
+}
+
+.dark-theme{
+    --back: #252525;
+    --front: #1d1d1d;
+    --text:white;
+}
+
+*{
+    background-color:var(--back);
+    color: var(--text);
+    transition-timing-function:ease-in;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.whole{
+    padding:2% 7%;    
+}
+
+/* First section */
+div.title-section{
+    background-color: var(--front);
+    margin: 5% 3%;
+    padding-left: 15%;
+    color:var(--text);
+}
+
+td{
+    background-color: var(--front);
+}
+
+img{    
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 5%;
+    background-color: var(--front);
+}
+
+.profession{
+    margin-left: 5%;
+    background-color: var(--front);
+} 
+
+/* Second section */
+.row{
+    padding: 1% 2.5%;
+}
+
+.first-column{
+    margin: 2% auto;
+    padding: 3%;
+    background-color: var(--front);
+    color: var(--text);
+}
+
+.second-column{
+    margin: 2% auto;
+    padding: 3%;    
+    background-color: var(--front);
+    color: var(--text);
+}
+
+
+/* Last section */
+
+.fa-linkedin{
+    color: #0a66c2;
+    background-color: var(--front);
+}
+
+.fa-hackerrank{
+    color: #2ec866;
+    background-color: var(--front);
+}
+.fa-github{
+    color: var(--text);
+    background-color: var(--front);
+}
+.fa-envelope{
+    background-color: var(--front);
+}
+.fa-phone{
+    background-color: var(--front);
+}
+
+
+
+.fa-file-signature , .fa-puzzle-piece,.fa-newspaper{
+    background-color: #0067FF;
+    color: white;
+    padding: 3px;
+}
+
+
+/* Common */
+
+h5,p{
+    background-color: var(--front);
+}
+
+h3.headings{
+    background-color: #1F00FF;
+    /* background-color: #009CE9; */
+    color: white;
+    padding: 5px ;
+    border-radius: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--front);
+}
+
+span.contents{
+    /* background-color: #2C73D2; */
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 1px;
+    font-size: 1.25rem;
+}
+
+span.profiles{
+    margin: 5px;
+    background-color: var(--front);
+    font-size: 1.25rem;
+}
+
+a.contents{
+    background-color: #0067FF;
+    color: white;
+    padding: 5px ;
+    border-radius: 40px;
+    margin: auto 2px;
+    font-size: 1.25rem;
+}
+a.contents:hover{
+    color: white;
+}
+
+
+/* Theme changer */
+.theme-changer{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
+    color:var(--text);
+}
