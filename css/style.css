@@ -158,6 +158,14 @@ a.contents:hover{
     color: white;
 }
 
+.resume-link{
+    padding: 1% 2.5%;
+    background-color: var(--back);
+}
+
+a.footer{
+    text-decoration: none;
+}
 
 /* Theme changer */
 .theme-changer{
