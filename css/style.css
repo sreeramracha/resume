@@ -26,9 +26,6 @@ dark-darker: #1d1d1d
     transition-duration: 0.5s;
 }
 
-
-
-
 .whole{
     padding:2% 7%;    
 }
@@ -69,6 +66,7 @@ img{
     padding: 3%;
     background-color: var(--front);
     color: var(--text);
+    /* position: relative; */
 }
 
 .second-column{
@@ -78,6 +76,20 @@ img{
     color: var(--text);
 }
 
+.aca-block{
+    background-color: var(--font);
+    position: relative;
+}
+
+h5.years{
+    position: absolute;
+    right:0px;
+    display: inline;
+}
+
+h5.inst-names{
+    display: inline;
+}
 
 /* Last section */
 
@@ -101,10 +113,9 @@ img{
     background-color: var(--front);
 }
 
-
-
 .fa-file-signature , .fa-puzzle-piece,.fa-newspaper{
     background-color: #0067FF;
+    background-color: transparent;
     color: white;
     padding: 3px;
 }
@@ -114,6 +125,9 @@ img{
 
 h5,p{
     background-color: var(--front);
+}
+p{
+    font-size: large;
 }
 
 h3.headings{
@@ -134,7 +148,7 @@ span.contents{
     /* background-color: #2C73D2; */
     background-color: #0067FF;
     color: white;
-    padding: 5px ;
+    padding: 7px ;
     border-radius: 40px;
     margin: auto 1px;
     font-size: 1.25rem;
@@ -149,7 +163,7 @@ span.profiles{
 a.contents{
     background-color: #0067FF;
     color: white;
-    padding: 5px ;
+    padding: 8px ;
     border-radius: 40px;
     margin: auto 2px;
     font-size: 1.25rem;
