@@ -30,6 +30,7 @@ dark-darker: #1d1d1d
     padding:2% 7%;    
 }
 
+
 /* First section */
 div.title-section{
     background-color: var(--front);
@@ -48,12 +49,12 @@ img{
 
 .name{
     margin-left: 5%;
-    background-color: var(--front);
+    background-color: transparent;
 }
 
 .profession{
     margin-left: 5%;
-    background-color: var(--front);
+    background-color: transparent;
 } 
 
 /* Second section */
@@ -77,7 +78,7 @@ img{
 }
 
 .aca-block{
-    background-color: var(--font);
+    background-color: transparent;
     position: relative;
 }
 
@@ -95,25 +96,25 @@ h5.inst-names{
 
 .fa-linkedin{
     color: #0a66c2;
-    background-color: var(--front);
+    background-color: transparent;
 }
 
 .fa-hackerrank{
     color: #2ec866;
-    background-color: var(--front);
+    background-color: transparent;
 }
 .fa-github{
     color: var(--text);
-    background-color: var(--front);
+    background-color: transparent;
 }
 .fa-envelope{
-    background-color: var(--front);
+    background-color:transparent;
 }
 .fa-phone{
-    background-color: var(--front);
+    background-color: transparent;
 }
 
-.fa-file-signature , .fa-puzzle-piece,.fa-newspaper{
+.fa-file-signature , .fa-puzzle-piece, .fa-newspaper, .fa-drum{
     background-color: #0067FF;
     background-color: transparent;
     color: white;
@@ -124,7 +125,7 @@ h5.inst-names{
 /* Common */
 
 h5,p{
-    background-color: var(--front);
+    background-color: transparent;
 }
 p{
     font-size: large;
@@ -141,7 +142,7 @@ h3.headings{
 .links{
     text-decoration: none;
     color: var(--text);
-    background-color: var(--front);
+    background-color: transparent;
 }
 
 span.contents{
@@ -156,7 +157,7 @@ span.contents{
 
 span.profiles{
     margin: 5px;
-    background-color: var(--front);
+    background-color:transparent;
     font-size: 1.25rem;
 }
 
@@ -174,7 +175,7 @@ a.contents:hover{
 
 .resume-link{
     padding: 1% 2.5%;
-    background-color: var(--back);
+    background-color: transparent;
 }
 
 a.footer{
