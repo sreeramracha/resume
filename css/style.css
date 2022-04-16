@@ -145,14 +145,30 @@ h3.headings{
     background-color: transparent;
 }
 
-span.contents{
-    /* background-color: #2C73D2; */
+/* background-color: #2C73D2; */
+/* span.contents{    
     background-color: #0067FF;
     color: white;
     padding: 7px ;
     border-radius: 40px;
     margin: auto 1px;
     font-size: 1.25rem;
+} */
+
+button{
+    cursor:initial;
+}
+button.btn-primary{
+    background-color: #0067FF;
+    cursor: initial;
+    font-size: 1.25rem;
+    border-radius: 40px;
+    padding: 7px;
+    margin: 1px;
+}
+
+button.btn-primary:hover{
+    background-color: #0067FF;
 }
 
 span.profiles{
@@ -161,7 +177,7 @@ span.profiles{
     font-size: 1.25rem;
 }
 
-a.contents{
+/* a.contents{
     background-color: #0067FF;
     color: white;
     padding: 8px ;
@@ -171,7 +187,14 @@ a.contents{
 }
 a.contents:hover{
     color: white;
+} */
+a.contents{
+    color:white;
 }
+a.contents:hover{
+    color: white;
+}
+
 
 .resume-link{
     padding: 1% 2.5%;
